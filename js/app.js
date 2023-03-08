@@ -18,8 +18,8 @@ productos.forEach((product) => {
   shopContent.append(content);
 
   let comprar = document.createElement("button");
-  comprar.innerText = "comprar";
-  comprar.className = "comprar";
+  comprar.innerText = "Buy";
+  comprar.className = "Buy";
 
   content.append(comprar);
 
